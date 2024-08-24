@@ -20,6 +20,13 @@
     padding: 17px 24px;
     background-color: white;
     border-radius: 5px;
+   
+}
+  
+.descriptio{
+  font-weight: 400;
+  font-size: 16px;
+  
 }
     
 /* header{} */
@@ -33,7 +40,44 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 38px 150px;
+    
+    
 }
 
-      
+.header{
+ 
+  background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+  text-align: center;
+  
+
+}
+.img-group{
+  margin-top: 26px;
+}
+
+.content{
+  border-radius: 10px;
+    padding: 40px 221px;
+    text-align: center;
+
+
+
+}
+ .title{
+  font-size: 48px;
+  font-weight: 800;
+
+ }     
+ 
+ .second-btn{
+  color: white;
+  background-color: #0D1321;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 17px 24px;
+
+ }
+
+ 
 
