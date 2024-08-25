@@ -23,9 +23,10 @@
    
 }
   
-.descriptio{
+.description{
   font-weight: 400;
   font-size: 16px;
+  color: #0D1321;
   
 }
     
@@ -79,5 +80,38 @@ nav{
 
  }
 
- 
 
+/* main-section- */
+.container{
+  margin: 74px 90px 152px;
+  border-radius: 10px;
+    padding: 80px 97px;
+    text-align: center;
+    max-width: 1140px;
+    
+}
+
+.sub-title{
+  font-size: 32px;
+  font-weight: 800;
+}
+.container-title{
+  color: rgba(13, 19, 33, 0.68);
+  font-size: 24px;
+  font-weight: 700;
+
+}
+.left-side{
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 48px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.right-side{
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 48px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
