@@ -22,6 +22,10 @@
     border-radius: 5px;
    
 }
+.secondary-btn{
+  border: none;
+  background-color: transparent;
+}
   
 .description{
   font-weight: 400;
@@ -31,6 +35,7 @@
 }
     
 /* header{} */
+
 .nav-title{
     font-weight: 800;
     font-size: 28px;
@@ -49,6 +54,7 @@ nav{
  
   background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
   text-align: center;
+  
   
 
 }
@@ -83,7 +89,7 @@ nav{
 
 /* main-section- */
 .container{
-  margin: 74px 90px 152px;
+  margin: 0px 74px 90px 90px;
   border-radius: 10px;
     padding: 80px 97px;
     text-align: center;
@@ -114,4 +120,110 @@ nav{
   padding: 48px 48px;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* My Inspiration */
+
+.container-ins{
+  margin: 0px 90px 90px 90px;
+   border-radius: 10px;
+    padding:0px 97px 0px 97px;
+    text-align: center;
+    max-width: 1140px;
+}
+/* My Current Target */
+.target-container{
+  display: flex;
+  text-align: left;
+  gap: 24px;
+  
+
+}
+.skill-title{
+  font-size: 24px;
+  font-weight: 800;
+}
+.skill-html{
+  background-color: #f7e3ded1;
+  padding: 40px;
+} 
+.skill-css{
+  background-color: rgba(126, 135, 236, 0.05);
+  padding: 40px;
+}
+.skill-js{
+  background-color: #fbf8e9;
+  padding: 40px;
+}
+
+.skill-img{
+  padding: 40px;
+}
+.skill-container{
+  display: flex;
+  text-align: left;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-color: #0D1321;
+  
+}
+
+
+/* footer */
+.title-bar{
+  background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
+  padding: 20px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 70px;
+}
+.footer{
+  color: white;
+  font-size: 32px;
+  font-weight: 700px;
+
+}
+.footer-p{
+  color: white;
+  font-size: 16px;
+  font-weight: 400px;
+
+}
+footer input[type="text"]{
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  /* display: block; */
+  /* width: 100%; */
+  padding: 19px 20px;
+  margin: 24px;
+  border: none;
+  width: 560px;
+}
+.submit{
+ /* justify-content: space-between; */
+ display: flex;
+ /* text-align: center; */
+padding: 50px 50px;
+}
+
+footer input[id="submit"]{
+  height: 40px;
+  padding: 19px 20px;
+  margin: 24px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.end{
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  border: none;
+  background-color: transparent;
+
 }
