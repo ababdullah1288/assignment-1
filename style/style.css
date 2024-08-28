@@ -65,7 +65,7 @@ nav{
 
 .header{
  
-  background-image: url(B10A1-Challenge-Begins/assets/Hero-bg.png);
+  background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
   text-align: center;
   
   
@@ -215,7 +215,7 @@ nav{
 
 /* footer */
 .title-bar{
-  background-image: url(/B10A1-Challenge-Begins/assets/handshak.jpg);
+  background-image: url(../B10A1-Challenge-Begins/assets/handshak.jpg);
   padding: 64px 48px;
   max-width: 1044px;
   margin: 0 auto;
@@ -291,5 +291,5 @@ footer input[id="submit"]{
 
 }
 .try{
-  background-image: url(/B10A1-Challenge-Begins/assets/handshak.jpg);
+  background-image: url(../B10A1-Challenge-Begins/assets/handshak.jpg);
 }
