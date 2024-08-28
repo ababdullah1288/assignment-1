@@ -1,14 +1,14 @@
-
-
-.azeret-mono-normal{
+.azeret-mono{
   font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
- 
-  font-style: normal;
 }
 
 /* shared style */
  
+body{
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: "Azeret Mono", monospace;
+}
 .font-color{
     color: #0D1321;
 }
@@ -20,11 +20,23 @@
     padding: 17px 24px;
     background-color: white;
     border-radius: 5px;
-   
+    font-family: "Azeret Mono", monospace;
+}
+.primary-btn-learn{
+  font-size: 15px;
+  font-weight: 600;
+  color: #0D1321;
+  padding: 17px 24px;
+  background-color: white;
+  border-radius: 5px;
+  font-family: "Azeret Mono", monospace;
+  width: 150px;
 }
 .secondary-btn{
   border: none;
   background-color: transparent;
+  font-weight: 700;
+  text-decoration: underline;
 }
   
 .description{
@@ -34,12 +46,13 @@
   
 }
     
-/* header{} */
+/* header*/
 
 .nav-title{
     font-weight: 800;
     font-size: 28px;
     color: #0D1321;
+    margin: 0;
 
 }
 nav{
@@ -89,14 +102,19 @@ nav{
 
 /* main-section- */
 .container{
-  margin: 0px 74px 90px 90px;
+  margin: 74px auto 88px auto;
   border-radius: 10px;
     padding: 80px 97px;
     text-align: center;
-    max-width: 1140px;
-    
+    max-width: 1140px; 
 }
-
+.card-container{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 636px;
+}
 .sub-title{
   font-size: 32px;
   font-weight: 800;
@@ -111,28 +129,43 @@ nav{
   display: flex;
   justify-content: space-between;
   padding: 48px 48px;
-  border-radius: 5px;
+  border-radius: 16px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .right-side{
   display: flex;
-  justify-content: space-between;
+  gap: 48.8px;
   padding: 48px 48px;
-  border-radius: 5px;
+  border-radius: 16px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
 }
 
 /* My Inspiration */
 
 .container-ins{
-  margin: 0px 90px 90px 90px;
-   border-radius: 10px;
-    padding:0px 97px 0px 97px;
-    text-align: center;
+   margin: 0 auto;
     max-width: 1140px;
+    text-align: center;
+}
+.video-container{
+  margin-top: 48px;
+  padding: 32px;
+  border-radius: 16px;  
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+.video-container iframe {
+  border-radius: 16px;
 }
 /* My Current Target */
+
+.current{
+  max-width: 1140px;
+  margin: 149px auto 111px auto;
+}
+
 .target-container{
+  margin-top: 48px;
   display: flex;
   text-align: left;
   gap: 24px;
@@ -146,14 +179,17 @@ nav{
 .skill-html{
   background-color: #f7e3ded1;
   padding: 40px;
+  border-radius: 16px;
 } 
 .skill-css{
   background-color: rgba(126, 135, 236, 0.05);
   padding: 40px;
+  border-radius: 16px;
 }
 .skill-js{
   background-color: #fbf8e9;
   padding: 40px;
+  border-radius: 16px;
 }
 
 .skill-img{
@@ -162,51 +198,72 @@ nav{
 .skill-container{
   display: flex;
   text-align: left;
-  border-radius: 5px;
+  border-radius: 16px;
   padding: 20px;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   border-color: #0D1321;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  margin-bottom: 24px;
   
 }
-
+.skill{
+  margin-top: 48px;
+}
+.next {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* footer */
 .title-bar{
   background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
-  padding: 20px;
-  border-radius: 20px;
+  padding: 64px 48px;
+  max-width: 1044px;
+  margin: 0 auto;
+  margin-top: 44px;
+  height: 186px;
+  border-radius: 16px;
   background-repeat: no-repeat;
   background-size: 100%;
   margin-bottom: 70px;
+  background-position: center;
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 .footer{
   color: white;
   font-size: 32px;
-  font-weight: 700px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
 
 }
 .footer-p{
   color: white;
   font-size: 16px;
   font-weight: 400px;
+  text-align: center;
 
 }
-footer input[type="text"]{
-  height: 40px;
-  border-radius: 5px;
-  background-color: white;
-  /* display: block; */
-  /* width: 100%; */
-  padding: 19px 20px;
-  margin: 24px;
-  border: none;
-  width: 560px;
+.submit-btn{
+  border-radius: 8px;
+  background:white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  height: 64px;
+  width: 120px;
 }
+ 
 .submit{
- /* justify-content: space-between; */
- display: flex;
- /* text-align: center; */
-padding: 50px 50px;
+  height: 60px;
+  width: 508px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 0 20px;
 }
 
 footer input[id="submit"]{
@@ -218,9 +275,15 @@ footer input[id="submit"]{
   border: none;
 }
 
+.end-bg{
+  background-color: rgba(13, 19, 33, 0.03);
+}
 .end{
   display: flex;
   justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 32px 0;
 }
 .icon{
   border: none;
